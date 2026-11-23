@@ -3,16 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Olel Studio: gentle animated shows for little ones</title>
-<meta name="description" content="Olel Studio makes calm, original animated shows for children aged 2 to 3 and the grown-ups who watch with them. Our first series is Tumbo's Valley.">
+<title>Tumbo's Valley | Olel Studio</title>
+<meta name="description" content="Two-minute cartoons for 2 and 3 year olds. A teal truck, two new words in every story, and a pause to say them back. From Olel Studio, coming soon to YouTube.">
 <meta name="robots" content="index, follow">
-<meta name="theme-color" content="#FBF3E2">
+<meta name="theme-color" content="#BFE2F5">
 <link rel="canonical" href="https://olel.tv/">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Olel Studio">
-<meta property="og:title" content="Olel Studio: gentle animated shows for little ones">
-<meta property="og:description" content="Calm, original animated shows for ages 2 to 3, made to watch together. First series: Tumbo's Valley.">
+<meta property="og:title" content="Tumbo's Valley | Olel Studio">
+<meta property="og:description" content="Two-minute cartoons for 2 and 3 year olds. Two new words in every story, and a pause to say them back.">
 <meta property="og:url" content="https://olel.tv/">
 <meta property="og:image" content="https://olel.tv/assets/og-image.jpg">
 <meta property="og:image:width" content="1200">
@@ -26,208 +26,282 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="manifest" href="site.webmanifest">
 <link rel="preload" href="assets/fonts/Fredoka-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/Poppins-Regular-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/site.css">
+<script src="assets/site.js" defer></script>
 </head>
-<body>
+<body class="home">
 <a class="skip-link" href="#main">Skip to content</a>
 
-<header class="site-header">
-  <div class="wrap">
-    <a class="logo" href="index.html" aria-label="Olel Studio, home">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="4 148 695 415" aria-hidden="true" focusable="false">
-        <circle cx="160" cy="360" r="77" fill="none" stroke="#EE7862" stroke-width="46"/>
-        <g stroke="#F0BA4E" stroke-width="28" stroke-linecap="round">
-          <line x1="262.42" y1="305.54" x2="299.51" y2="285.82"/>
-          <line x1="219.74" y1="260.57" x2="241.38" y2="224.57"/>
-          <line x1="160.00" y1="244.00" x2="160.00" y2="202.00"/>
-          <line x1="100.26" y1="260.57" x2="78.62" y2="224.57"/>
-          <line x1="57.58" y1="305.54" x2="20.49" y2="285.82"/>
-        </g>
-        <g fill="none" stroke="#243056" stroke-width="46" stroke-linecap="round">
-          <line x1="367.42" y1="173.64" x2="349.00" y2="437.00"/>
-          <line x1="654.58" y1="173.64" x2="673.00" y2="437.00"/>
-          <path d="M585.00,360.00 A77.00,77.00 0 1 0 565.22,411.52" stroke-width="46"/>
-          <path d="M431.00,344.60 C481.05,367.70 534.95,367.70 585.00,344.60" stroke-width="35.88"/>
-        </g>
-        <text x="64" y="560" font-family="Fredoka, ui-rounded, sans-serif" font-weight="500" font-size="62" letter-spacing="13" fill="#646A80">studio</text>
-      </svg>
-    </a>
-    <nav class="nav" aria-label="Main">
-      <a href="#tumbos-valley">Tumbo's Valley</a>
-      <a href="#how-we-make">How we make our shows</a>
-      <a href="#parents">For parents</a>
-    </nav>
-  </div>
-</header>
-
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="index.html" aria-label="Olel Studio, home">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="4 148 695 415" aria-hidden="true" focusable="false">
+          <circle cx="160" cy="360" r="77" fill="none" stroke="#EE7862" stroke-width="46"/>
+          <g class="logo-rays" stroke="#F0BA4E" stroke-width="28" stroke-linecap="round">
+            <line x1="262.42" y1="305.54" x2="299.51" y2="285.82"/>
+            <line x1="219.74" y1="260.57" x2="241.38" y2="224.57"/>
+            <line x1="160.00" y1="244.00" x2="160.00" y2="202.00"/>
+            <line x1="100.26" y1="260.57" x2="78.62" y2="224.57"/>
+            <line x1="57.58" y1="305.54" x2="20.49" y2="285.82"/>
+          </g>
+          <g fill="none" stroke="#243056" stroke-width="46" stroke-linecap="round">
+            <line x1="367.42" y1="173.64" x2="349.00" y2="437.00"/>
+            <line x1="654.58" y1="173.64" x2="673.00" y2="437.00"/>
+            <path d="M585.00,360.00 A77.00,77.00 0 1 0 565.22,411.52" stroke-width="46"/>
+            <path d="M431.00,344.60 C481.05,367.70 534.95,367.70 585.00,344.60" stroke-width="35.88"/>
+          </g>
+          <text x="64" y="560" font-family="Fredoka, ui-rounded, sans-serif" font-weight="500" font-size="62" letter-spacing="13" fill="#646A80">studio</text>
+        </svg>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="#stories">Stories</a>
+        <a href="#valley">The valley</a>
+        <a href="#grown-ups">Grown-ups</a>
+      </nav>
+    </div>
+  </header>
 <main id="main">
+<section class="hero" id="top" aria-labelledby="hero-title">
 
-  <section class="hero" aria-labelledby="hero-title">
-    <div class="wrap">
-      <div>
-        <p class="eyebrow"><img src="assets/olel-sun.svg" alt="" width="22" height="18">For ages 2 to 3, and the grown-ups beside them</p>
-        <h1 id="hero-title">Small, gentle shows for little ones</h1>
-        <p class="lede">Olel Studio makes calm, original animated shows for very young children. Friendly vehicles, a few simple words, and time to answer. Made to be watched together, on the sofa, with someone you love.</p>
-        <p><a class="button" href="#tumbos-valley">Meet Tumbo's Valley</a></p>
-      </div>
-      <figure class="hero-figure">
-        <img src="assets/img/friends-640.jpg" width="640" height="360"
-             alt="Tumbo the smiling teal truck and a friendly violet excavator beside a small hole in an autumn meadow, with a squirrel watching">
-      </figure>
+  <!-- the sky: sun, clouds and mountains sit behind everything -->
+  <div class="sky" aria-hidden="true">
+    <svg class="sun" viewBox="59 76 582 457" focusable="false">
+      <g class="sun-rays" stroke="#F0BA4E" stroke-width="56" stroke-linecap="round">
+        <line x1="530.70" y1="321.29" x2="610.59" y2="295.33"/>
+        <line x1="461.68" y1="226.29" x2="511.05" y2="158.33"/>
+        <line x1="350.00" y1="190.00" x2="350.00" y2="106.00"/>
+        <line x1="238.32" y1="226.29" x2="188.95" y2="158.33"/>
+        <line x1="169.30" y1="321.29" x2="89.41" y2="295.33"/>
+      </g>
+      <circle cx="350" cy="380" r="119" fill="none" stroke="#EE7862" stroke-width="62"/>
+      <path d="M308.31,403.44 A46,46 0 0 0 391.69,403.44" fill="none" stroke="#243056" stroke-width="24" stroke-linecap="round"/>
+    </svg>
+    <div class="clouds" data-depth="0.45">
+      <svg class="cloud c1" viewBox="0 0 220 90" focusable="false"><path d="M30 80 a28 28 0 0 1 6-55 a36 36 0 0 1 64-14 a32 32 0 0 1 58 6 a30 30 0 0 1 34 63 z" fill="#fff"/><path d="M30 80 h162 a30 30 0 0 0 9-12 c-40 8-130 8-180 0 a28 28 0 0 0 9 12z" fill="#E3F0FA"/></svg>
+      <svg class="cloud c2" viewBox="0 0 220 90" focusable="false"><path d="M30 80 a28 28 0 0 1 6-55 a36 36 0 0 1 64-14 a32 32 0 0 1 58 6 a30 30 0 0 1 34 63 z" fill="#fff"/><path d="M30 80 h162 a30 30 0 0 0 9-12 c-40 8-130 8-180 0 a28 28 0 0 0 9 12z" fill="#E3F0FA"/></svg>
+      <svg class="cloud c3" viewBox="0 0 220 90" focusable="false"><path d="M30 80 a28 28 0 0 1 6-55 a36 36 0 0 1 64-14 a32 32 0 0 1 58 6 a30 30 0 0 1 34 63 z" fill="#fff"/><path d="M30 80 h162 a30 30 0 0 0 9-12 c-40 8-130 8-180 0 a28 28 0 0 0 9 12z" fill="#E3F0FA"/></svg>
     </div>
-  </section>
+  </div>
 
-  <section class="section section-alt" id="tumbos-valley" aria-labelledby="series-title">
-    <div class="wrap">
-      <h2 id="series-title">Our first series: Tumbo's Valley</h2>
-      <div class="section-intro">
-        <p>Tumbo is a warm teal truck who lives in a quiet flower valley. A little orange bird rides on his roof, and together with their friends they help the animals of the valley with small, everyday jobs.</p>
-        <p>Each episode is one small problem and one kind solution, with two easy words to say together.</p>
+
+  <div class="hero-copy wrap">
+    <p class="kicker">Our first show</p>
+    <h1 id="hero-title"><span class="h1-tumbo">Tumbo's</span> Valley</h1>
+    <p class="lede">Two-minute cartoons for 2 and 3 year olds. A teal truck, two new words in every story, and a pause to say them back.</p>
+    <p class="soon"><span class="soon-dot" aria-hidden="true"></span>Coming soon to YouTube</p>
+  </div>
+
+  <!-- the valley: hills move a little as you scroll; the cast stand on the path -->
+  <div class="stage">
+    <div class="land" aria-hidden="true">
+      <svg class="layer mountains" data-depth="0.32" viewBox="0 0 1440 300" preserveAspectRatio="none" focusable="false">
+        <path d="M0 300 V210 L120 150 L210 190 L330 90 L450 180 L540 140 L640 200 L760 120 L880 60 L1000 160 L1100 120 L1220 180 L1330 110 L1440 170 V300 Z" fill="#D2DAEE"/>
+        <path d="M330 90 L372 122 L352 120 L334 132 L312 118 L296 122 Z M880 60 L930 100 L905 98 L884 110 L862 96 L842 100 Z M1330 110 L1366 136 L1348 135 L1332 144 L1314 133 L1302 136 Z" fill="#F5F8FD"/>
+      </svg>
+      <svg class="layer hills-far" data-depth="0.22" viewBox="0 0 1440 300" preserveAspectRatio="none" focusable="false">
+        <path d="M0 300 V170 C160 120 300 150 420 168 C560 190 660 120 800 118 C960 116 1060 176 1200 160 C1300 150 1380 120 1440 126 V300 Z" fill="#CFE7CB"/>
+      </svg>
+      <svg class="layer hills-mid" data-depth="0.12" viewBox="0 0 1440 300" preserveAspectRatio="none" focusable="false">
+        <path d="M0 300 V190 C200 150 330 200 520 196 C700 192 820 140 1010 150 C1180 160 1300 196 1440 180 V300 Z" fill="#BCDFA6"/>
+        <g class="trees">
+          <rect x="1088" y="140" width="8" height="26" rx="3" fill="#A9876B"/><circle cx="1092" cy="132" r="20" fill="#8DBF85"/><circle cx="1084" cy="126" r="8" fill="#A6D39B"/>
+          <rect x="1128" y="150" width="7" height="22" rx="3" fill="#A9876B"/><circle cx="1131" cy="143" r="16" fill="#97C88C"/>
+          <rect x="248" y="170" width="7" height="22" rx="3" fill="#A9876B"/><circle cx="251" cy="163" r="16" fill="#8DBF85"/><circle cx="245" cy="158" r="6" fill="#A6D39B"/>
+        </g>
+      </svg>
+      <svg class="layer meadow" viewBox="0 0 1440 300" preserveAspectRatio="none" focusable="false">
+        <path d="M0 300 V150 C240 120 480 140 720 134 C960 128 1200 112 1440 130 V300 Z" fill="#B3D995"/>
+        <path d="M0 300 V214 C360 200 1080 200 1440 214 V300 Z" fill="#F4EAD0"/>
+        <path d="M0 214 C360 200 1080 200 1440 214" fill="none" stroke="#E2D3AE" stroke-width="3"/>
+        <path d="M0 300 V262 C360 252 1080 252 1440 262 V300 Z" fill="#A4CF86"/>
+      </svg>
+    </div>
+
+    <div class="actors">
+      <img class="prop daisy-big" src="assets/img/cast/daisy.webp" width="300" height="573" alt="" aria-hidden="true">
+
+      <button class="actor hedgehog" type="button" data-say="apple" aria-label="Hedgehog with her apple. Say: apple">
+        <span class="enter"><span class="act"><span class="rig">
+          <img src="assets/img/cast/hedgehog-apple.webp" width="320" height="226" alt="">
+        </span></span></span>
+      </button>
+
+      <button class="actor tumbo" type="button" data-say="truck" aria-label="Tumbo the truck. Say: truck">
+        <span class="enter"><span class="act"><span class="rig">
+          <span class="wheel w-rear"><img src="assets/img/cast/tumbo-wheel-rear.webp" width="181" height="180" alt=""></span>
+          <span class="wheel w-mid"><img src="assets/img/cast/tumbo-wheel-middle.webp" width="180" height="180" alt=""></span>
+          <img class="t-body" src="assets/img/cast/tumbo-body.webp" width="894" height="465" alt="">
+          <img class="t-body t-happy" src="assets/img/cast/tumbo-happy-body.webp" width="894" height="465" alt="">
+          <span class="wheel w-front"><img src="assets/img/cast/tumbo-wheel-front.webp" width="181" height="180" alt=""></span>
+          <img class="t-bird" src="assets/img/cast/tumbo-bird.webp" width="171" height="162" alt="">
+        </span></span></span>
+      </button>
+
+      <button class="actor stone" type="button" data-say="stone" aria-label="A small stone. Say: stone">
+        <span class="enter"><span class="act"><span class="rig">
+          <img src="assets/img/cast/stone.webp" width="140" height="114" alt="">
+        </span></span></span>
+      </button>
+
+      <button class="actor hole" type="button" data-say="hole" aria-label="A hole in the ground. Say: hole">
+        <span class="enter"><span class="act"><span class="rig">
+          <img src="assets/img/cast/hole.webp" width="300" height="95" alt="">
+        </span></span></span>
+      </button>
+
+      <button class="actor digger" type="button" data-say="dig" aria-label="The violet digger. Say: dig">
+        <span class="enter"><span class="act"><span class="rig">
+          <img class="d-up" src="assets/img/cast/digger-up.webp" width="640" height="456" alt="">
+          <img class="d-dig" src="assets/img/cast/digger-dig.webp" width="640" height="456" alt="">
+        </span></span></span>
+      </button>
+      <div class="grass-front" aria-hidden="true">
+        <img class="dz" style="--x:4%;--d:0s;--s:1;--y:-18%" src="assets/img/daisy-small.svg" width="40" height="64" alt="">
+        <img class="dz" style="--x:12%;--d:-1.4s;--s:.75;--y:5%" src="assets/img/daisy-small.svg" width="40" height="64" alt="">
+        <img class="dz" style="--x:29%;--d:-2.6s;--s:.85;--y:-25%" src="assets/img/daisy-small.svg" width="40" height="64" alt="">
+        <img class="dz" style="--x:46%;--d:-0.8s;--s:.7;--y:10%" src="assets/img/daisy-small.svg" width="40" height="64" alt="">
+        <img class="dz" style="--x:61%;--d:-3.1s;--s:1;--y:-30%" src="assets/img/daisy-small.svg" width="40" height="64" alt="">
+        <img class="dz" style="--x:80%;--d:-1.9s;--s:.8;--y:0%" src="assets/img/daisy-small.svg" width="40" height="64" alt="">
+        <img class="dz" style="--x:92%;--d:-0.3s;--s:1.05;--y:-20%" src="assets/img/daisy-small.svg" width="40" height="64" alt="">
       </div>
 
-      <figure class="banner">
-        <img src="assets/img/tumbos-valley-banner-1600.jpg"
-             srcset="assets/img/tumbos-valley-banner-800.jpg 800w, assets/img/tumbos-valley-banner-1600.jpg 1600w"
-             sizes="(min-width: 68rem) 65rem, 100vw"
-             width="1600" height="900" loading="lazy" decoding="async"
-             alt="Tumbo's Valley: Tumbo the teal truck with a little orange bird on his roof, the series title, and a hedgehog holding an apple, in a green valley with soft hills and clouds">
-      </figure>
+      <p class="bubble" aria-hidden="true"><span class="bubble-word"></span></p>
+    </div>
+  </div>
 
-      <h3>The first three episodes</h3>
-      <ol class="episodes">
-        <li>
-          <article class="card">
-            <img src="assets/img/ep01-640.jpg" width="640" height="360" loading="lazy" decoding="async"
-                 alt="Tumbo the teal truck smiling beside a small brown stone, with the word Truck">
-            <div class="card-body">
-              <p class="ep-num">Episode 1</p>
+  <div class="words" role="group" aria-labelledby="words-title">
+    <div class="wrap">
+      <h2 id="words-title" class="words-title">Say it with Tumbo</h2>
+      <p class="words-hint">Tap a word, then say it out loud.</p>
+      <ul class="chips" role="list">
+        <li><button class="chip" type="button" data-say="truck" data-ep="1">truck</button></li>
+        <li><button class="chip" type="button" data-say="stone" data-ep="1">stone</button></li>
+        <li><button class="chip" type="button" data-say="apple" data-ep="2">apple</button></li>
+        <li><button class="chip" type="button" data-say="bring" data-ep="2">bring</button></li>
+        <li><button class="chip" type="button" data-say="dig" data-ep="3">dig</button></li>
+        <li><button class="chip" type="button" data-say="hole" data-ep="3">hole</button></li>
+      </ul>
+      <p class="sr-only" aria-live="polite" id="said"></p>
+    </div>
+  </div>
+</section>
+
+  <svg class="edge edge-down" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 0 H1440 V22 C1200 58 960 6 720 30 C480 54 240 8 0 40 Z" fill="#A4CF86"/></svg>
+
+  <section class="section stories" id="stories" aria-labelledby="stories-title">
+    <div class="wrap">
+      <h2 id="stories-title">The first three stories</h2>
+      <p class="section-lede">About two minutes each. Two new words in every one.</p>
+
+      <ol class="episodes" role="list">
+        <li class="ep ep1">
+          <article>
+            <div class="ep-pic"><img src="assets/img/ep01-640.webp" width="640" height="360" loading="lazy" decoding="async"
+                 alt="Tumbo the teal truck smiling beside a small brown stone, with the word Truck"></div>
+            <div class="ep-body">
+              <p class="ep-num"><span>1</span> Episode one</p>
               <h3>Tumbo's Small Stone</h3>
-              <p class="words">Words: <span class="word">truck</span> <span class="word">stone</span></p>
+              <p class="ep-line">Tumbo goes looking for a small stone.</p>
+              <p class="ep-words"><span class="w w-teal">truck</span><span class="w w-brown">stone</span></p>
             </div>
           </article>
         </li>
-        <li>
-          <article class="card">
-            <img src="assets/img/ep02-640.jpg" width="640" height="360" loading="lazy" decoding="async"
-                 alt="Tumbo carrying red apples in his truck bed, with one more apple on the grass and the word Apple">
-            <div class="card-body">
-              <p class="ep-num">Episode 2</p>
+        <li class="ep ep2">
+          <article>
+            <div class="ep-pic"><img src="assets/img/ep02-640.webp" width="640" height="360" loading="lazy" decoding="async"
+                 alt="Tumbo carrying red apples in his truck bed, with one more apple on the grass and the word Apple"></div>
+            <div class="ep-body">
+              <p class="ep-num"><span>2</span> Episode two</p>
               <h3>Apples Before the Rain</h3>
-              <p class="words">Words: <span class="word">apple</span> <span class="word">bring</span></p>
+              <p class="ep-line">Hedgehog's apples need bringing in. Rain is coming.</p>
+              <p class="ep-words"><span class="w w-red">apple</span><span class="w w-teal">bring</span></p>
             </div>
           </article>
         </li>
-        <li>
-          <article class="card">
-            <img src="assets/img/ep03-640.jpg" width="640" height="360" loading="lazy" decoding="async"
-                 alt="A smiling violet excavator digging a small hole in the ground, with the word Dig">
-            <div class="card-body">
-              <p class="ep-num">Episode 3</p>
+        <li class="ep ep3">
+          <article>
+            <div class="ep-pic"><img src="assets/img/ep03-640.webp" width="640" height="360" loading="lazy" decoding="async"
+                 alt="A smiling violet digger digging a small hole in the ground, with the word Dig"></div>
+            <div class="ep-body">
+              <p class="ep-num"><span>3</span> Episode three</p>
               <h3>The Shiny Wheel</h3>
-              <p class="words">Words: <span class="word">dig</span> <span class="word">hole</span></p>
+              <p class="ep-line">Squirrel's cart needs its wheel. The digger digs.</p>
+              <p class="ep-words"><span class="w w-violet">dig</span><span class="w w-violet">hole</span></p>
             </div>
           </article>
         </li>
       </ol>
+      <p class="soon soon-center"><span class="soon-dot" aria-hidden="true"></span>Coming soon to YouTube</p>
+    </div>
+  </section>
 
-      <div class="watch">
-        <span class="badge">Coming soon to YouTube</span>
+  <section class="section how" aria-labelledby="how-title">
+    <div class="wrap how-grid">
+      <figure class="tv">
+        <div class="tv-screen">
+          <video class="moment" src="assets/video/ep01-moment.mp4" poster="assets/video/ep01-moment.webp"
+                 width="640" height="360" muted loop playsinline preload="none" controls
+                 aria-label="A silent 12-second moment from Tumbo's Small Stone: Tumbo drives through the meadow past the little orange bird on a post"></video>
+        </div>
+        <figcaption>12 seconds of <cite>Tumbo's Small Stone</cite>, sound off.</figcaption>
+      </figure>
+      <div class="how-text">
+        <h2 id="how-title">What happens in an episode</h2>
+        <ul class="facts" role="list">
+          <li><h3>Two words</h3><p>Truck and stone. Apple and bring. Dig and hole. Each one comes back a few times.</p></li>
+          <li><h3>A pause to say it</h3><p>Tumbo asks, then waits a few seconds. Your child can answer, or just watch.</p></li>
+          <li><h3>About two minutes</h3><p>One small story, then a good place to stop.</p></li>
+          <li><h3>Trucks that look like trucks</h3><p>The tipper tips and the digger digs, so the ones on screen match the ones outside.</p></li>
+        </ul>
       </div>
     </div>
   </section>
 
-  <section class="section" id="how-we-make" aria-labelledby="how-title">
+  <section class="section valley" id="valley" aria-labelledby="valley-title">
     <div class="wrap">
-      <h2 id="how-title">How we make our shows</h2>
-      <p class="section-intro">We start with research: what is known about how very young children watch, look and listen. Then we design every episode around it, slowly and carefully.</p>
-
-      <ul class="points">
-        <li>
-          <h3>Real vehicles, really</h3>
-          <p>A truck looks like a truck and an excavator digs like an excavator, so what your child sees on screen matches what they see outside.</p>
+      <h2 id="valley-title">Who lives in the valley</h2>
+      <ul class="cast" role="list">
+        <li class="who who-teal">
+          <div class="who-pic"><img src="assets/img/cast/tumbo-flat.webp" width="520" height="350" loading="lazy" decoding="async" alt="Tumbo, a teal tipper truck with a friendly face on his front, daisy wheel hubs and a little orange bird on his roof"></div>
+          <h3>Tumbo</h3><p>A teal tipper truck with daisy wheels.</p>
         </li>
-        <li>
-          <h3>Big, friendly faces</h3>
-          <p>Clear eyes and warm smiles that are easy to read, even for the smallest viewers.</p>
+        <li class="who who-gold">
+          <div class="who-pic"><img src="assets/img/cast/bird.webp" width="260" height="247" loading="lazy" decoding="async" alt="A round little orange bird with a crest and a pointed beak"></div>
+          <h3>The little bird</h3><p>Rides on Tumbo's roof.</p>
         </li>
-        <li>
-          <h3>Calm pictures</h3>
-          <p>Soft colours, a gentle pace, and only a few things on screen at a time.</p>
+        <li class="who who-violet">
+          <div class="who-pic"><img src="assets/img/cast/digger-up.webp" width="640" height="456" loading="lazy" decoding="async" alt="A violet digger with a domed, freckled roof, a happy face and its arm raised"></div>
+          <h3>The digger</h3><p>Violet, with a freckled roof. Loves to dig.</p>
         </li>
-        <li>
-          <h3>Short episodes</h3>
-          <p>About two minutes each. Enough for one small story, and easy to stop after.</p>
+        <li class="who who-coral">
+          <div class="who-pic"><img src="assets/img/cast/hedgehog-apple.webp" width="320" height="226" loading="lazy" decoding="async" alt="A smiling hedgehog holding a red apple"></div>
+          <h3>Hedgehog</h3><p>Has apples to bring in before the rain.</p>
         </li>
-        <li>
-          <h3>Pauses to answer</h3>
-          <p>Tumbo asks, then waits. The pause gives your child time to say the word too.</p>
+        <li class="who who-green">
+          <div class="who-pic"><img src="assets/img/cast/squirrel.webp" width="320" height="353" loading="lazy" decoding="async" alt="A smiling orange squirrel with a big fluffy tail"></div>
+          <h3>Squirrel</h3><p>Has a little cart, missing a wheel.</p>
         </li>
-      </ul>
-
-      <ul class="cast" aria-label="Characters from Tumbo's Valley">
-        <li>
-          <figure>
-            <img src="assets/img/look-happy-640.jpg" width="640" height="360" loading="lazy" decoding="async"
-                 alt="Close view of Tumbo the teal truck with a happy, squinting smile">
-            <figcaption>Tumbo, a warm teal truck.</figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img src="assets/img/look-bird-640.jpg" width="640" height="360" loading="lazy" decoding="async"
-                 alt="Tumbo the teal truck with a little orange bird riding on his roof">
-            <figcaption>A little orange bird who rides along.</figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img src="assets/img/look-digger-640.jpg" width="640" height="360" loading="lazy" decoding="async"
-                 alt="A violet excavator with a friendly face, digging next to a small hole and a grey stone">
-            <figcaption>The excavator, who loves to dig.</figcaption>
-          </figure>
+        <li class="who who-red">
+          <div class="who-pic"><img src="assets/img/cast/ladybug.webp" width="120" height="82" loading="lazy" decoding="async" alt="A small red ladybug with black spots"></div>
+          <h3>Ladybug</h3><p>Hides in every episode. Can you find it?</p>
         </li>
       </ul>
     </div>
   </section>
 
-  <section class="section section-alt" id="parents" aria-labelledby="parents-title">
+  <section class="grown-ups" id="grown-ups" aria-labelledby="grown-title">
+    <div class="crawl" aria-hidden="true"><div class="crawl-track"><img class="crawler" src="assets/img/cast/ladybug.webp" width="120" height="82" alt="" loading="lazy" decoding="async"></div></div>
     <div class="wrap">
-      <h2 id="parents-title">For parents</h2>
-      <p class="section-intro">Our shows are made for children aged 2 to 3, watching with a grown-up. A few small things help:</p>
-
-      <ol class="tips">
-        <li>
-          <h3>Watch together</h3>
-          <p>Sit with your child when you can. Point, smile, and talk about what you see.</p>
-        </li>
-        <li>
-          <h3>Say the words in the pauses</h3>
-          <p>When Tumbo waits, say the word with your child. Any answer is fine, and so is none.</p>
-        </li>
-        <li>
-          <h3>Stop when they lose interest</h3>
-          <p>There is no need to finish. When your child looks away or wants to play, that is a good moment to stop.</p>
-        </li>
-        <li>
-          <h3>Keep screens away from bedtime</h3>
-          <p>We suggest watching earlier in the day, not just before sleep.</p>
-        </li>
+      <h2 id="grown-title">For the grown-ups</h2>
+      <p class="age">Made for ages 2 to 3.</p>
+      <ol class="tips" role="list">
+        <li><strong>Watch together</strong> when you can. Point and talk about what you see.</li>
+        <li><strong>Say the words</strong> in the pauses. Any answer counts, and so does none.</li>
+        <li><strong>Stop</strong> when they drift off to play. No need to finish.</li>
+        <li><strong>Earlier in the day</strong> is better than just before bed.</li>
       </ol>
-
-      <div class="age-box">
-        <p><strong>Ages 2 to 3.</strong> That is who we make our shows for. If a younger child is watching too, sit close and keep it short.</p>
-      </div>
-
-    </div>
-  </section>
-
-  <section class="section" id="honest" aria-labelledby="honest-title">
-    <div class="wrap">
-      <div class="honest">
-        <h2 id="honest-title">Made openly</h2>
-        <p><strong>Our shows are made with AI-assisted tools. The narration voices are AI-generated.</strong></p>
-        <p>The characters, stories and the valley are our own originals.</p>
-      </div>
+      <p class="ai-note">Made with AI-assisted tools. The voices are AI-generated.</p>
     </div>
   </section>
 
